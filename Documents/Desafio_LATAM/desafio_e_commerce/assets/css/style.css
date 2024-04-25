@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+header {
+  grid-area: header;
+}
+menu {
+  grid-area: menu;
+}
+main {
+  grid-area: main;
+}
+footer {
+  grid-area: footer;
+}
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    "header header"
+    "menu main"
+    "footer footer";
+}
