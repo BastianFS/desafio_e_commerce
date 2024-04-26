@@ -23,13 +23,16 @@ footer {
     "header header"
     "menu main"
     "footer footer";
+    grid-template-columns: 20% 80%;
 }
 .big_box{
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: auto auto;
     justify-items: center;
     align-items: center;
-    gap: 10px;
+    gap: 40px;
+    width: 100%;
 }
 .card  {
     display: flex;
@@ -38,8 +41,8 @@ footer {
     border: 2px solid gray;
     border-radius: 3%;
     text-align: center;
-    width: 200px;
-    height: 300px;
+    width: 150px;
+    height: 250px;
     padding: 10px;
    
 }
@@ -61,4 +64,41 @@ footer {
     font-weight: light;
     color:gray;
     
+}
+.img2{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/daddario09.jpeg);
+    background-position:center;
+    background-size: cover;
+}
+.img3{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/dr09.jpg);
+    background-position:center;
+    background-size: cover;
+    
+}
+.img4{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/dunlop09.jpg);
+    background-position:center;
+    background-size: cover;
+    
+}
+.img5{
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/prs09.jpeg);
+    background-position:center;
+    background-size: cover;
+    
+}
+.price {
+    padding-bottom: 10px;
+}
+.btn_buy{
+    background-color: azure;
 }
