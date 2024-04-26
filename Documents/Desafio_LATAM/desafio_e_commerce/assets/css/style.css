@@ -10,6 +10,9 @@ header {
 }
 menu {
   grid-area: menu;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
 }
 main {
   grid-area: main;
@@ -101,4 +104,10 @@ footer {
 }
 .btn_buy{
     background-color: azure;
+}
+.menu_title{
+    padding-bottom: 20px;
+}
+.menu_subtitle{
+    padding-bottom: 10px;
 }
