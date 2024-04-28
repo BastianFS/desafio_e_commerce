@@ -4,21 +4,34 @@
 }
 body{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: lightgrey;
 }
 header {
   grid-area: header;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  padding: 20px;
+  background-color: darkcyan;
 }
 menu {
   grid-area: menu;
-  padding: 10px;
+  padding: 30px;
   display: flex;
   flex-direction: column;
+  background-color: rgb(146, 252, 252);
 }
 main {
   grid-area: main;
+  padding: 30px;
+  height: 80vh;
 }
 footer {
   grid-area: footer;
+  text-align: center;
+  padding: 20px;
+  background-color: darkcyan;
 }
 .grid-container{
     display: grid;
@@ -47,6 +60,7 @@ footer {
     width: 150px;
     height: 250px;
     padding: 10px;
+    background-color: aliceblue;
    
 }
 .img1{
@@ -103,7 +117,7 @@ footer {
     padding-bottom: 10px;
 }
 .btn_buy{
-    background-color: azure;
+    background-color: rgb(156, 244, 244);
 }
 .menu_title{
     padding-bottom: 20px;
